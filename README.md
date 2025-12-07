@@ -44,3 +44,36 @@ Depois rode `source ~/.zshrc` (ou abra um novo terminal) e use:
 ```bash
 addhoras
 ```
+
+## Exemplo de execução
+```bash
+➜  apontamento-horas git:(main) addhoras
+
+=== Novo Apontamento de Horas ===
+Atividade: 123
+Tempo (ex: 30m, 1h30m, 2h): 1h
+
+Pré-visualização do registro:
+----------------------------------------
+ID (n)      : 1
+Atividade   : 123
+Tempo total : 1h
+Início      : 2025-12-07 18:31:59
+Fim         : 2025-12-07 19:31:59
+Valor (R$)  : R$ 113,63
+----------------------------------------
+Confirmar gravação? (s/n): s
+
+✅ Apontamento salvo em apontamentos.csv
+
+Pendências:
+----------------------------------------
+Total horas não pagas: 1h
+Total não pago      : R$ 113,63
+----------------------------------------
+
+```
+
+## Contribuições e Créditos
+
+- Sham Vinicius Fiorin
